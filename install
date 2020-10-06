@@ -1,0 +1,9 @@
+
+cd /arpspoof python3 setup.py install
+apt install python-pip
+pip install pyOpenSSL
+pip install twisted
+pip install dnspython
+pip install pcapy
+cd /sslstrip2 python3 setup.py install
+
